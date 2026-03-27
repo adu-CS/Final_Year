@@ -1,0 +1,59 @@
+[Dataset] Loaded 11507 real | 16771 fake | mode=train
+[Dataset] Loaded 2504 real | 465 fake | mode=val
+
+======================================
+  IEEE EFFICIENCY REPORT — CBAM MODEL
+======================================
+  Parameters : 1.5605 Million
+  MACs       : 0.0615  GMACs
+  FLOPs      : 0.1231 GFLOPs
+======================================
+
+[INFO] Backbone frozen — training CBAM + classifier head only.
+
+[INFO] Class balance — Real: 11507, Fake: 16771, pos_weight: 0.686
+                                                                                                                                              
+Epoch 001 | AUC: 0.8213 | F1: 0.3412 | Val Loss: 0.3461 | Train Loss: 0.4243 | LR: 5.00e-05
+  [Checkpoint] Saved best model (val_loss=0.3461)
+Epoch 002 | AUC: 0.8236 | F1: 0.4317 | Val Loss: 0.3758 | Train Loss: 0.3660 | LR: 5.00e-05
+  [EarlyStopping] 1/15 (best val_loss=0.3461)
+Epoch 003 | AUC: 0.8375 | F1: 0.3747 | Val Loss: 0.3217 | Train Loss: 0.3554 | LR: 5.00e-05
+  [Checkpoint] Saved best model (val_loss=0.3217)
+Epoch 004 | AUC: 0.8452 | F1: 0.4889 | Val Loss: 0.3925 | Train Loss: 0.3457 | LR: 5.00e-05
+  [EarlyStopping] 1/15 (best val_loss=0.3217)
+Epoch 005 | AUC: 0.8282 | F1: 0.3484 | Val Loss: 0.3156 | Train Loss: 0.3389 | LR: 5.00e-05
+  [Checkpoint] Saved best model (val_loss=0.3156)
+Epoch 006 | AUC: 0.8332 | F1: 0.4338 | Val Loss: 0.3480 | Train Loss: 0.3364 | LR: 4.99e-05
+  [EarlyStopping] 1/15 (best val_loss=0.3156)
+Epoch 007 | AUC: 0.8368 | F1: 0.4908 | Val Loss: 0.4116 | Train Loss: 0.3349 | LR: 4.99e-05
+  [EarlyStopping] 2/15 (best val_loss=0.3156)
+Epoch 008 | AUC: 0.8449 | F1: 0.5021 | Val Loss: 0.4140 | Train Loss: 0.3245 | LR: 4.98e-05
+  [EarlyStopping] 3/15 (best val_loss=0.3156)
+Epoch 009 | AUC: 0.8333 | F1: 0.4529 | Val Loss: 0.3495 | Train Loss: 0.3209 | LR: 4.98e-05
+  [EarlyStopping] 4/15 (best val_loss=0.3156)
+Epoch 010 | AUC: 0.8406 | F1: 0.4749 | Val Loss: 0.3724 | Train Loss: 0.3172 | LR: 4.98e-05
+  [EarlyStopping] 5/15 (best val_loss=0.3156)
+
+[INFO] Epoch 11: Unfreezing backbone for fine-tuning...
+Epoch 011 | AUC: 0.8516 | F1: 0.4942 | Val Loss: 0.3668 | Train Loss: 0.3085 | LR: 1.00e-06
+  [EarlyStopping] 6/15 (best val_loss=0.3156)
+Epoch 012 | AUC: 0.8584 | F1: 0.4935 | Val Loss: 0.3532 | Train Loss: 0.2965 | LR: 9.99e-07
+  [EarlyStopping] 7/15 (best val_loss=0.3156)
+Epoch 013 | AUC: 0.8641 | F1: 0.5228 | Val Loss: 0.3651 | Train Loss: 0.2904 | LR: 9.98e-07
+  [EarlyStopping] 8/15 (best val_loss=0.3156)
+Epoch 014 | AUC: 0.8727 | F1: 0.5299 | Val Loss: 0.3383 | Train Loss: 0.2838 | LR: 9.96e-07
+  [EarlyStopping] 9/15 (best val_loss=0.3156)
+Epoch 015 | AUC: 0.8736 | F1: 0.5437 | Val Loss: 0.3406 | Train Loss: 0.2797 | LR: 9.95e-07
+  [EarlyStopping] 10/15 (best val_loss=0.3156)
+Epoch 016 | AUC: 0.8771 | F1: 0.5569 | Val Loss: 0.3478 | Train Loss: 0.2735 | LR: 9.93e-07
+  [EarlyStopping] 11/15 (best val_loss=0.3156)
+Epoch 017 | AUC: 0.8784 | F1: 0.5527 | Val Loss: 0.3424 | Train Loss: 0.2716 | LR: 9.91e-07
+  [EarlyStopping] 12/15 (best val_loss=0.3156)
+Epoch 018 | AUC: 0.8838 | F1: 0.5612 | Val Loss: 0.3407 | Train Loss: 0.2674 | LR: 9.90e-07
+  [EarlyStopping] 13/15 (best val_loss=0.3156)
+Epoch 019 | AUC: 0.8853 | F1: 0.5670 | Val Loss: 0.3299 | Train Loss: 0.2592 | LR: 9.88e-07
+  [EarlyStopping] 14/15 (best val_loss=0.3156)
+Epoch 020 | AUC: 0.8878 | F1: 0.5706 | Val Loss: 0.3355 | Train Loss: 0.2565 | LR: 9.86e-07
+  [EarlyStopping] 15/15 (best val_loss=0.3156)
+
+[STOP] Early stopping triggered at epoch 20.
