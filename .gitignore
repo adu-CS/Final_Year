@@ -1,0 +1,105 @@
+# =============================
+# Model weights and checkpoints
+# =============================
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.weights
+checkpoints/
+weights/
+
+# =============================
+# Training/evaluation artifacts
+# =============================
+runs/
+outputs/
+results/
+predictions/
+wandb/
+tensorboard/
+events.out.tfevents*
+logs/
+*.log
+logs.csv
+
+# =============================
+# Datasets and extracted media
+# Keep this project lightweight on GitHub
+# =============================
+data/
+dataset/
+datasets/
+raw/
+processed/
+cache/
+tmp/
+temp/
+extracted_faces/
+faces/
+
+# Large media/data files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+*.wmv
+*.zip
+*.tar
+*.gz
+*.7z
+
+# =============================
+# Python
+# =============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tool caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# =============================
+# Secrets and local config
+# =============================
+.env
+.env.*
+*.local
+
+# =============================
+# IDE / OS files
+# =============================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
