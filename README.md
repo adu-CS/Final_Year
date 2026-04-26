@@ -1,4 +1,4 @@
-Deepfake Detection using Lightweight Feature Fusion Techniques
+# Detection using Lightweight Feature Fusion Techniques
 
 Deepfake Detection project built in **Python + PyTorch**, focused on a **lightweight baseline** using **MobileNetV3-Small** for binary classification (real vs fake). The repository includes training, evaluation (with IEEE-style reporting), dataset loading, and helper scripts for face extraction / dataset-specific evaluation.
 
